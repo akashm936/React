@@ -1,0 +1,163 @@
+30/11/2024
+
+1) this package are neccery for running the react application
+
+
+*** learn
+AJAX  (Asyncronous javascript )
+RollUp
+package bundler
+
+
+example of package
+
+1) babel
+2) ESLint
+3) rollup
+3) vitejs
+4) react
+5) React-DOM
+
+
+#|  public
+-> it is used for storingthe static assest lie images and svg
+-> public folder is same like a assest folder 
+-> we will not used public folder for storig the static assest insed    of that we used assest for in src
+
+
+#| eslint.config.js
+
+-> ESLint is will  gives you a syntax error while writing the javascript code.
+
+#|  index.html
+
+-> in react installation we will get one html file
+-> in that html file thier is two important tag 
+-> will not write any html code in that html file
+
+<div id="root"></div>
+<script type="module" src="/main.js"></script>
+
+#| package.lock.json
+in this file we have all the package and library informstion in jason format
+
+#| package.json
+in this file we have all the package and library informstion in jason format
+
+
+
+
+readme: 
+-> in this file we will write a all the information of about the project
+-> or some instruction for thr team.
+
+
+version: 1:0:0
+major:minor:batch
+
+Dependecies: 
+-> this are mejor Dependecies  that are impotart in developement phase and also production phase.
+
+ex 
+1) react
+2) react-DOM
+
+
+
+DevDependecies : are those librery and packages that are neccerary during developement only and are not required after deployment
+
+
+ex
+@ESlint
+@vite
+
+---------------------------------------------------------------------------------------------------------------------------------------
+02-12-2024
+---------------------------------------------------------
+
+*) deffing algorithm
+
+1) what is deffing algorithm
+-> diffing algorithm is the process of finding the difference/changes between real dom and virtual dom.
+
+2) reconcilation process
+-> reconcilation is the process of implementing the changes from virtual dom to real dom
+   that are found during the deffing algorithm.
+
+3) React fiber
+->  React fiber is the react Engine 
+
+4) whta is babel 
+-> babel is transfilers it will convert the modern javascript code into browser understadable/ normal javascript.
+-> this process is code is transfilation.
+-> and transfilation is done by babel. 
+-> transfilation is occur during the rendering.
+-> modern javascript means JSX code.  
+
+5) what is JSX
+-> javascript and xml 
+-> jsx is html look like javascript code. 
+
+6) Strict modern
+-> strict mode check the syntax 2 times and run times.
+
+7) components
+-> components is reuseble block of code.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+03-12-2024
+---------------------------------------------------------
+
+MVC architechture
+model view controler
+
+
+* ) Angular
+-> made in 2009
+-> made by google
+-> it is framework
+-> it follow mvc architechture
+-> it support javascript / typescript
+
+
+* ) React
+-> made in 2011
+-> made public in 2013
+-> made by Facebook (jordan walke)
+-> it is library
+-> it follow components base architechture
+-> it support javascript / typescript
+
+
+* ) Angular 2
+-> made in 2014-15
+-> made by google
+-> it is framework
+-> it follow components base architechture
+-> it support only typescript
+
+
+* ) Vue.js
+-> made in 2015-16
+-> made by Evan you
+-> it is framework
+-> it follow components base architechture
+-> it support javascript / typescript
+
+
+
+*) Npm
+
+npm toast
+
+2.1 million package are in npm library
+its world largest packages registru
+
+
+
+
+
+
+
+

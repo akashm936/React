@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#LandingPage{
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#PosterPage{
+  width: 50%;
+  height: 90%;
+  background-color: #2196f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(243, 243, 243);
+}
+
+
+#PosterPage h1{
+  text-transform:uppercase;
+}
+
+#MainPage{
+  width: 50%;
+  height: 90%;
+  background-color: white;
+}
+
+#Row1{
+  width: 100%;
+  height: 20%;
+  border: 1px solid #313131;
+  display: flex;
+}
+
+#BoxNo1{
+  width: 40%;
+  height: 100%;
+  border: 1px solid rgb(19, 17, 19);
+}
+
+#BoxNo2{
+  width: 30%;
+  height: 100%;
+  border: 1px solid rgb(19, 17, 19);
+}
+#BoxNo3{
+  width: 30%;
+  height: 100%;
+  border: 1px solid rgb(19, 17, 19);
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#BoxNo3 h1{
+  color: #000000;
+  font-size: 1rem;
+  
+
+}
+#Row2{
+  width: 100%;
+  height: 35%;
+  border: 1px solid #313131;
+}
+
+#BoxNo4{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(214, 132, 160);
+}
+
+#Row3{
+  width: 100%;
+  height: 25%;
+  border: 1px solid #313131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#BoxNo5{
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+
+#BoxNo5 h1{
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+
+#Row4{
+  width: 100%;
+  height: 20%;
+  border: 1px solid #313131;
+  display: flex;
+}
+
+#BoxNo6{
+  width: 50%;
+  height: 100%;
+  border: 1px solid purple;
+  background-color: rgb(236, 49, 112);
+}
+
+#BoxNo7{
+  width: 50%;
+  height: 100%;
+  border: 1px solid purple;
+  background-color: rgb(26, 177, 164);
+}
+

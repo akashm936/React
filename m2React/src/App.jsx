@@ -1,15 +1,11 @@
-
-import Navbar from './components/Navbar'
-import Body from './components/Body'
-import Footer from './components/Footer'
+import React from 'react'
+import MyInfo from './components/MyInfo'
 
 function App() {
   return (
-   <>
-     <Navbar/>
-     <Body />
-     <Footer/>
-   </>
+    <div>
+      <MyInfo/>
+    </div>
   )
 }
 

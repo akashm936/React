@@ -156,8 +156,101 @@ its world largest packages registru
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------------
+06-12-2024
+---------------------------------------------------------
+
+npm: node package manager
+npm will compalsary dawnload all the packages and librery to your System means we are dawnload the packages then only we can use them.
+
+*) npx : - node package executor
+
+-> npx will dawnload only neccesary packages and remainning packages we can access without dawnloading them.
+
+if we want to used Facebook two way 
+1) dawnloading the Facebook appl with similar to npm way means we dawnloading it then we used it.
+
+2) dawnloading the browser (neccerary package) here in this ex we are not dawnloading the facebook but instead we are dawnloading the neccerary package and executing/ using facebook on that package.
+ 
+
+ -----------------------------
+npx create app folder structure
+
+- node module
+-public
+  -
+  -
+-src
+-gitingnore
+- package.lock.json
+-package.json
+
+command for create react app using npx
+
+*)  npm create react-app project_name
+                         
+                         
+we are not write import export in inside the components
+we write import at the top of code and
+we write export as bottom of code
 
 
 
+rules of jsx
+
+1) compalsary return jsx
+2) return only one element
+3) tag should be closed
+4) we can't used attribute 'for', 'class' instead  we use 'htmlFor','className'
+5) we dont want to create un neccerary node we used Fragment
+  
+  type of Fragment;
+  
+  *) empty Fragment <> </>
+  *) name Fragment <Fragment> <Fragment/>
+  *) default Fragment <React.Fragment> <React.Fragment/>
+
+  -> with empty fragment we can not use key
+     if we want to use key we use <Fragment key={keyname}> or <React.Fragment key={keyname}>
+
+   =) Jsx Expression Rule / Convation
+
+      *) we should not write console statement inside the jsx syntax
+      *) in jsx Expression we can not write any conditional statement except ternary operator and short cerkit operator
+  
+6) 
+
+//10-12-24
+
+*) hot module replacement :-
+-> Hot module replacement (HMR) is one of the most useful features offered by package bundler .
+->  it allows all kind of module to be updated at runtime without the need for a full refresh
+
+HMR is not intended for use in production, meaning it should only be used in developement
 
 
+*) hooks 
+what is hooks
+-> hooks are nothing but the in build method or funtions 
+-> hooks name start with use.
+-> ex . useState(), useEffect() , useContext(), useDispatch, useReducer, useCallBack, useMemo
+-> we can create any function and we will name it  useXYS. such function can be treated as custome hooks 
+ex: let useAddition = (a,b) =>{
+return a +b
+
+let sum = useAddition(10,20)
+log(sum)
+
+
+
+// feature/ characterStrict of react 
+
+1) it follow the component based architechture
+2) React is declarative in nature. //ex we dont need write any dom method becouse everything allready declared with jsx
+we can called as declarative becouse react provides many inbuild hooks for diffrent functionality we just have to used them.
+
+-> Declarative means every thing is declare we just have to used it ex you dont need any instruction you allredy know to do it 
+-> imparative means many of thing are not allredy declared we have to explictly or manualy explain them : ex : if you dont know how to do it we just want to instruction to do it.
+
+3) Write once use anywhere. we can create a components for such functionality that are repitative and we can used it n number of times 
+-> ex we will create the button components onces and we will used it whereever we want n number of times.  
